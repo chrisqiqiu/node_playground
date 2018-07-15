@@ -1,5 +1,5 @@
 function bubbleSort (nums) {
-    swap=true
+    let swap=true
     while (swap){
       swap = false
       for (let i = 1 ; i < nums.length; i ++ ){
